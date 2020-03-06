@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Torito</string>
+    <string name="label_email">Correo Electronico:</string>
+    <string name="label_password">Contraseña:</string>
+    <string name="label_register">¿Aun no tienes cuenta? Registrate Aqui</string>
+    <string name="btn_login">Iniciar Sesion</string>
+    <string name="please_fill_your_register">Por favor llena los datos</string>
+    <string name="label_register_tittle">Menu de Registro</string>
+    <string name="label_register_subTittle">Rellena lo que se te pide</string>
+    <string name="label_register_fullName">Primer Nombre y Apellido</string>
+    <string name="btn_register">Registrarme</string>
+    <string name="btn_register_step_2">Siguiente</string>
+    <string name="label_register_log_in">¿Ya tienes una cuenta? inicia sesion aqui</string>
+    <string name="label_register_dpi">Ingrese su DPI</string>
+    <string name="label_confirm_password">Ingrese nuevamente su contraseña</string>
+    <string name="label_phone_number">Ingrese su numero de telefono</string>
+    <string name="btn_register_back">Volver al paso 1</string>
+    <string name="skip_intro">SALTAR</string>
+    <string name="next">SIGUIENTE</string>
+</resources>
