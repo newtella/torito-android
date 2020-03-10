@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.get
 import androidx.viewpager2.widget.ViewPager2
+import com.example.torito.ui.auth.LoginActivity
 import kotlinx.android.synthetic.main.activity_onboarding.*
 
 class OnBoardingActivity : AppCompatActivity() {
@@ -52,7 +53,7 @@ class OnBoardingActivity : AppCompatActivity() {
             if( introSliderViewPager.currentItem + 1 < introSlideAdapter.itemCount){
                 introSliderViewPager.currentItem += 1
             }else {
-                Intent( applicationContext, MainActivity::class.java ).also {
+                Intent( applicationContext, LoginActivity::class.java ).also {
                     startActivity(it)
                     finish()
                 }
@@ -115,7 +116,7 @@ class OnBoardingActivity : AppCompatActivity() {
         preferences.edit()
             .putBoolean("onBoarding_complete", true).apply()
 
-        val main = Intent(this, MainActivity::class.java)
+        val main = Intent(this, LoginActivity::class.java)
         startActivity(main)
         finish()
     }
